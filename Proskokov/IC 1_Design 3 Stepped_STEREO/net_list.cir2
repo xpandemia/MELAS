@@ -1,0 +1,12 @@
+0 ICSigma100In1 O_C0_A0_P1_out Link10
+1 DCBlockAlgDoublePrec1 I_C22_A0_P1_in Link10 O_C22_A0_P2_out Link0
+2 PEQ1Chan1 I_C27_A0_P1_in Link0 O_C27_A0_P2_out Link9
+3 CrossoverFilter3WayAlgDP1 I_C82_A0_P1_in Link9 O_C82_A0_P2_out Link1 O_C82_A0_P3_out Link2 O_C82_A0_P4_out Link3
+4 MuteNoSlewAlg1 I_C38_A0_P1_in Link1 O_C38_A0_P2_out Link7
+5 MuteNoSlewAlg2 I_C41_A0_P1_in Link2 O_C41_A0_P2_out Link6
+6 MuteNoSlewAlg3 I_C44_A0_P1_in Link3 O_C44_A0_P2_out Link8
+7 MultCtrlDelGrowAlg2 I_C53_A0_P1_in Link6 O_C53_A0_P2_out Link4
+8 ICSigma100Out1 I_C11_A0_P1_in Link7
+9 MultCtrlDelGrowAlg3 I_C100_A0_P1_in Link8 O_C100_A0_P2_out Link5
+10 ICSigma100Out2 I_C13_A0_P1_in Link4
+11 ICSigma100Out3 I_C15_A0_P1_in Link5

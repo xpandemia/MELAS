@@ -1,0 +1,18 @@
+0 ICSigma100In1 O_C0_A0_P1_out Link0 O_C0_A0_P2_out Link15
+1 DCBlockAlgDoublePrec1 I_C22_A0_P1_in Link0 O_C22_A0_P2_out Link4
+2 Gain1940AlgNS1 I_C62_A0_P1_in Link15 O_C62_A0_P2_out Link16
+3 CrossoverFilter3WayAlgDP1 I_C82_A0_P1_in Link4 O_C82_A0_P2_out Link5 O_C82_A0_P3_out Link6 O_C82_A0_P4_out Link7
+4 MuteNoSlewAlg1 I_C38_A0_P1_in Link5 O_C38_A0_P2_out Link1
+5 MuteNoSlewAlg2 I_C41_A0_P1_in Link6 O_C41_A0_P2_out Link2
+6 MuteNoSlewAlg3 I_C44_A0_P1_in Link7 O_C44_A0_P2_out Link3
+7 ICSigma100Out4 I_C28_A0_P1_in Link16
+8 PEQ1Chan1 I_C29_A0_P1_in Link1 O_C29_A0_P2_out Link12
+9 PEQ1Chan2 I_C32_A0_P1_in Link2 O_C32_A0_P2_out Link10
+10 PEQ1Chan3 I_C35_A0_P1_in Link3 O_C35_A0_P2_out Link11
+11 MultCtrlDelGrowAlg2 I_C53_A0_P1_in Link10 O_C53_A0_P2_out Link14
+12 MultCtrlDelGrowAlg3 I_C100_A0_P1_in Link11 O_C100_A0_P2_out Link9
+13 BassBAlg1 I_C17_A0_P1_in Link12 O_C17_A0_P2_out Link8
+14 BassBAlg2 I_C78_A0_P1_in Link8 O_C78_A0_P2_out Link13
+15 ICSigma100Out3 I_C15_A0_P1_in Link9
+16 ICSigma100Out2 I_C13_A0_P1_in Link14
+17 ICSigma100Out1 I_C11_A0_P1_in Link13

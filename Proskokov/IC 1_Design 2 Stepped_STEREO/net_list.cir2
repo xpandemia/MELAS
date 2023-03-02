@@ -1,0 +1,33 @@
+0 ICSigma100In1 O_C0_A0_P1_out Link29 O_C0_A0_P2_out Link31
+1 SingleBandLevelDet1 I_C161_A0_P1_in Link29 O_C161_A0_P2_out Link28
+2 DCBlockAlgDoublePrec2 I_C66_A0_P1_in Link28 O_C66_A0_P2_out Link16
+3 SingleBandLevelDet2 I_C51_A0_P1_in Link31 O_C51_A0_P2_out Link30
+4 CrossoverFilter3WayAlgDP2 I_C108_A0_P1_in Link16 O_C108_A0_P2_out Link21 O_C108_A0_P3_out Link19 O_C108_A0_P4_out Link17
+5 DCBlockAlgDoublePrec1 I_C22_A0_P1_in Link30 O_C22_A0_P2_out Link3
+6 CrossoverFilter3WayAlgDP1 I_C82_A0_P1_in Link3 O_C82_A0_P2_out Link4 O_C82_A0_P3_out Link5 O_C82_A0_P4_out Link6
+7 MuteNoSlewAlg6 I_C105_A0_P1_in Link17 O_C105_A0_P2_out Link24
+8 MuteNoSlewAlg5 I_C99_A0_P1_in Link19 O_C99_A0_P2_out Link23
+9 MuteNoSlewAlg4 I_C94_A0_P1_in Link21 O_C94_A0_P2_out Link15
+10 MuteNoSlewAlg1 I_C38_A0_P1_in Link4 O_C38_A0_P2_out Link0
+11 MuteNoSlewAlg2 I_C41_A0_P1_in Link5 O_C41_A0_P2_out Link1
+12 MuteNoSlewAlg3 I_C44_A0_P1_in Link6 O_C44_A0_P2_out Link2
+13 PEQ1Chan4 I_C72_A0_P1_in Link15 O_C72_A0_P2_out Link14
+14 PEQ1Chan5 I_C75_A0_P1_in Link23 O_C75_A0_P2_out Link20
+15 PEQ1Chan6 I_C91_A0_P1_in Link24 O_C91_A0_P2_out Link18
+16 PEQ1Chan1 I_C29_A0_P1_in Link0 O_C29_A0_P2_out Link12
+17 PEQ1Chan2 I_C32_A0_P1_in Link1 O_C32_A0_P2_out Link10
+18 PEQ1Chan3 I_C35_A0_P1_in Link2 O_C35_A0_P2_out Link11
+19 BassBAlg3 I_C119_A0_P1_in Link14 O_C119_A0_P2_out Link22
+20 MultCtrlDelGrowAlg4 I_C116_A0_P1_in Link18 O_C116_A0_P2_out Link26
+21 MultCtrlDelGrowAlg1 I_C113_A0_P1_in Link20 O_C113_A0_P2_out Link25
+22 MultCtrlDelGrowAlg2 I_C53_A0_P1_in Link10 O_C53_A0_P2_out Link8
+23 MultCtrlDelGrowAlg3 I_C100_A0_P1_in Link11 O_C100_A0_P2_out Link9
+24 BassBAlg1 I_C17_A0_P1_in Link12 O_C17_A0_P2_out Link7
+25 BassBAlg4 I_C122_A0_P1_in Link22 O_C122_A0_P2_out Link27
+26 ICSigma100Out4 I_C18_A0_P1_in Link25
+27 ICSigma100Out5 I_C27_A0_P1_in Link26
+28 BassBAlg2 I_C78_A0_P1_in Link7 O_C78_A0_P2_out Link13
+29 ICSigma100Out2 I_C13_A0_P1_in Link8
+30 ICSigma100Out3 I_C15_A0_P1_in Link9
+31 ICSigma100Out6 I_C47_A0_P1_in Link27
+32 ICSigma100Out1 I_C11_A0_P1_in Link13
